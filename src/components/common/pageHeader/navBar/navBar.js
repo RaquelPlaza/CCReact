@@ -5,13 +5,25 @@ class NavBar extends Component {
 	render() {
 
 		return(
-			<nav>
-				<a href="#">Investment opportunities</a>
-				<a href="#">How it works</a>
-				<a href="#">Explore</a>
-				<a href="#">Log in</a>
-				<a href="#">Join</a>
-			</nav>
+			<div className="nav">
+				<ul>
+					<li>
+					<a href="#">Investment opportunities</a>
+					</li>
+					<li>
+						<a href="#">How it works</a>
+					</li>
+					<li>
+						<a href="#">Explore</a>
+					</li>
+					<li>
+						<a href="#">Log in</a>
+					</li>
+					<li>
+						<a href="#">Join</a>
+					</li>
+				</ul>
+			</div>
 		);
 
 	}

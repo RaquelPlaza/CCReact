@@ -14,7 +14,12 @@ class PageHeader extends Component {
 			  </div>
 			  <NavBar />
 			  </div>
+
 			</div>
+
+
+
+
 		);
 	}
 }

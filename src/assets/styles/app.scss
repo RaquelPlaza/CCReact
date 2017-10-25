@@ -22,6 +22,12 @@ a {
     color: #f08f00;
     line-height: inherit;
     text-decoration: none;
+
+    &:hover {
+    	color: #e46905;
+    	line-height: inherit;
+    	text-decoration: none;
+    }
 }
 
 .header-container {
@@ -51,29 +57,27 @@ a {
 		}
     }
 
-    nav {
+    .nav {
     	float: right;
     	display: inline-block;
 
-    	a {
-    		color: #29383c;
-    		font-size: .75rem;
-    		font-weight: 700;
-    		text-decoration: none;
-    		margin-right: 2.5rem;
+    	ul{
+    		li {
+    			list-style-type: none;
+    			display: inline-block;
+    			margin-right: 2.5rem;
 
-    		&:last-child {
-			    border-top-left-radius: 3px;
-			    border-top-right-radius: 3px;
-			    border-bottom-left-radius: 3px;
-			    border-bottom-right-radius: 3px;
-			    background-color: #64a816;
-			    border: 2px solid #64a816;
-			    color: #fff;
-			    display: inline-block;
-			    padding: .5rem .75rem;
-			}
+    			a {
+		    		color: #29383c;
+		    		font-size: .75rem;
+		    		font-weight: 700;
+		    		text-decoration: none;
+		    		margin-right: 2.5rem;
+
+		    	}
+    		}
     	}
+
     }
 
     .page-title {
@@ -97,10 +101,8 @@ a {
 	.list-item-container {
 		border: 1px solid #e4e4e4;
 	    border-radius: 2px;
-	    flex-direction: column;
 	    margin-bottom: 1.75rem;
 	    position: relative;
-	    transition: all .33s;
 
 	    .list-item-top {
 
@@ -114,6 +116,9 @@ a {
 	    	}
 
 	    	.logo-container {
+	    		margin-bottom: .6rem;
+			    padding: .3125rem .625rem;
+			    position: relative;
 	    		img {
 	    			    border: 1px solid #e4e4e4;
 					    float: left;
@@ -121,6 +126,43 @@ a {
 					    max-height: 75pt;
 					    max-width: 75pt;
 	    		}
+	    	}
+	    	.tags {
+	    		ul {
+	    			margin: 0;
+	    			padding: 0;
+	    			li {
+	    				list-style-type: none;
+	    				float: left;
+
+	    				.tag {
+	    					border: 1px solid #e4e4e4;
+						    border-radius: 2px;
+						    color: #29383c;
+						    font-size: .875rem;
+						    font-weight: 700;
+						    padding: .1em .5em;
+
+						    &small {
+						    	font-size: .75rem;
+						    }
+
+						    abbr {
+						    	text-transform: uppercase;
+							    font-size: 90%;
+							    color: #29383c;
+							    cursor: help;
+							    border: 0;
+						    }
+	    				}
+	    			}
+	    		}
+	    	}
+	    	.list-days-left {
+	    		color: #29383c;
+			    float: right;
+			    font-size: .9em;
+			    font-weight: 700;
 	    	}
 	    }
 	    .list-item-body {
