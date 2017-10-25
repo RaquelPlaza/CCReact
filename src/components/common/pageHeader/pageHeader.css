@@ -1,0 +1,22 @@
+.header-container {
+  background-color: #fff;
+  padding-left: .875rem;
+  padding-right: .875rem;
+  height: 65px;
+  padding-top: .7rem;
+  border-bottom: 1px solid #e4e4e4; }
+  .header-container .logo-container {
+    display: inline-block;
+    margin: 5px 0 0;
+    width: 180px; }
+    .header-container .logo-container a {
+      background: url(../../../assets/img/logo.svg);
+      background-repeat: no-repeat;
+      background-size: 180px;
+      display: inline-block;
+      height: 23px;
+      margin-top: .45rem;
+      overflow: hidden;
+      text-indent: 200%;
+      vertical-align: middle;
+      width: 180px; }

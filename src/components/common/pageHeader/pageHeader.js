@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 
 import NavBar from './navBar/navBar';
 
+import './pageHeader.css';
+
 
 class PageHeader extends Component {
 
