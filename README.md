@@ -7,7 +7,8 @@ Clone the repository and run
 ```
 npm install
 ```
-This application uses create-react-app. To start a server and view the app run
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+ To start a server and view the app run
 ```
 npm start
 ```
