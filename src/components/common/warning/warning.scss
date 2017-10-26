@@ -1,0 +1,17 @@
+.warning-container {
+	border: 1px solid #ccc;
+    margin-bottom: 1.25rem;
+    padding: .625em;
+    background: transparent;
+    color: #29383c;
+
+    p {
+    	font-size: .9em;
+    	padding: 0;
+    	margin: 0;
+    }
+
+    @media only screen and (min-width: 41em) {
+    	float: right;
+	}
+}

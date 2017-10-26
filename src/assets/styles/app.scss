@@ -30,10 +30,19 @@ a {
 
 .row {
 	width: 100%;
+	margin: 0 auto;
+    max-width: 75rem;
+
+    &:before {
+	    content: " ";
+	    display: table;
+	}
 }
 
 
 .filter-header {
+
+	margin-bottom: 1.25rem;
 
 
 	@media (min-width: 768px) {
@@ -41,6 +50,11 @@ a {
 		display: -webkit-flex;
 	    display: flex;
 	    width: 100%;
+	}
+
+	@media only screen and (min-width: 55em) {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0 .875rem;
 	}
 
 	.page-title {
@@ -76,12 +90,43 @@ a {
 	    	display: table-cell;
     		position: relative;
     		width: 50%;
+
+			@media only screen and (min-width: 55em) {
+			    border-left: 1px solid #e4e4e4;
+			    display: table-cell;
+			    width: 15rem;
+			}
+
 	    }
 		
 		@media (min-width: 768px) {
     		-webkit-order: 2;
     		order: 2;
     	}
+
+    	@media only screen and (min-width: 55em) {
+
+    	    display: -webkit-box;
+		    display: -moz-box;
+		    display: box;
+		    display: -moz-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    -webkit-box-flex: 1;
+		    box-flex: 1;
+		    -moz-flex: 1;
+		    -ms-flex: 1;
+		    flex: 1;
+		    -webkit-box-pack: end;
+		    box-pack: end;
+		    -moz-justify-content: flex-end;
+		    -ms-justify-content: flex-end;
+		    -o-justify-content: flex-end;
+		    justify-content: flex-end;
+		    -ms-flex-pack: end;
+		    border: 0;
+
+		}
     }
 }
 
@@ -90,23 +135,5 @@ a {
     padding-right: .875rem;
     margin: 0 auto;
     max-width: 75rem;
-}
-
-.warning-container {
-	border: 1px solid #ccc;
-    margin-bottom: 1.25rem;
-    padding: .625em;
-    background: transparent;
-    color: #29383c;
-
-    p {
-    	font-size: .9em;
-    	padding: 0;
-    	margin: 0;
-    }
-}
-
-@media (min-width: 672px) {
-
 }
 

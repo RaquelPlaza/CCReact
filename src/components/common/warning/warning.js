@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import './warning.css';
+
 
 class WarningComponent extends Component {
 

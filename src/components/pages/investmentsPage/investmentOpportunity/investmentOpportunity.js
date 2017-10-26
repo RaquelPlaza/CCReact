@@ -28,6 +28,26 @@ class InvestmentOpportunity extends Component {
 			  	cover: "https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21605/201709/cover_161ecab5a185efd1747c009977efce03.jpg",
 			  	logo: "https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201709/logo_3b4692fe212d1b4d8d6926ad0fec0259.jpg"
 
+			  },
+			  { 
+			  	title: "BrewBroker", 
+			  	desc: "BrewBroker aims to be the world’s biggest brewer, all without owning a brewery. Our online marketplace will enable anyone to buy & sell brewing services, making beer production smarter, more accessible & more profitable. Funding will be used for the continued development and launch of the platform.", 
+			  	cover: "https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21475/201709/19d90f7220d00d00bf8e48c5c173bb30.jpg", 
+			  	logo: "https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201709/logo_9ebb2dbfd0d84e26083d1a9addc9149b.jpg" 
+			  },
+			  { 
+			  	title: "Shaw Academy", 
+			  	desc: "Founded in 2014, Shaw Academy is an online education provider which teaches a variety of subjects live through their bespoke software platform. Having taught over 4,000,000 students from all over the world, they are currently growing by 250,000 new students a month and now plan to scale globally.", 
+			  	cover: "https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21672/201709/desktop_opt2_7bd86d016bd6518bc5a039cde18f12b8.jpg",
+			  	logo: "https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201709/logo_inverted_blue_style_2_1d03900a484fd73084e20a49689308c6.jpg"
+
+			  },
+			  { 
+			  	title: "Verv", 
+			  	desc: "Backed by Centrica (British Gas) and mentored by Google, Verv has developed an intelligent energy assistant, smart home product, using high speed energy analytics and machine learning to bring existing appliances to life. With 6 patents filed, Verv has sold units to British Gas, EDF & Allianz.", 
+			  	cover: "https://files-crowdcube-com.s3.amazonaws.com/opportunity_images/21629/201709/a861882e15b1f7704236e79efd4f1c13.jpg",
+			  	logo: "https://files-crowdcube-com.s3.amazonaws.com/files/pitch_pics/original/201709/c04685f6fb1c3c8b3828ba7441a0d5e1.jpg"
+
 			  }
 			]
 		}

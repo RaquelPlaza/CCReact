@@ -18,7 +18,7 @@ class InvestmentsPage extends Component {
 					  	<div className="page-title"><h2>{this.props.pageTitle}</h2></div>
 						<FiltersComponent />
 					</div>
-					<div className="sorting-container">
+					<div className="body-top-container">
 						<SortingComponent />
 						<WarningComponent />
 					</div>
